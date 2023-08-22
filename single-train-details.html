@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Train Details</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- Add links to other sections/pages... -->
+            </ul>
+        </nav>
+        <h1>Train Details</h1>
+    </header>
+
+    <main>
+        <section id="train-details">
+            <h2>Train Details</h2>
+            <div class="train-details">
+                <h3 id="train-name">Chennai Express</h3>
+                <p>Price (Sleeper): <span id="price">$2</span></p>
+                <p>Seats Available (Sleeper): <span id="seats-available">3</span></p>
+                <p>Seats Reserved (Sleeper): <span id="seats-reserved">0</span></p>
+                <p>VIP Kota: <span id="vip-kota">No</span></p>
+                <!-- Add more details here... -->
+            </div>
+        </section>
+
+        <!-- Inside the "Train Details" section -->
+<div class="train-details">
+    <h3 id="train-name">Chennai Express</h3>
+    <p>Price (Sleeper): <span id="price">$2</span></p>
+    <p>Seats Available (Sleeper): <span id="seats-available">3</span></p>
+    <p>Seats Reserved (Sleeper): <span id="seats-reserved">0</span></p>
+    <p>VIP Kota: <span id="vip-kota">No</span></p>
+    <!-- Add more details here... -->
+    <button class="book-now-btn" onclick="bookTrain('Chennai Express')">Book Now</button>
+    <select class="class-select">
+        <option value="sleeper">Sleeper</option>
+        <option value="ac">AC</option>
+    </select>
+</div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Train Schedule App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

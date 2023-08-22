@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Train Schedule App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#train-list">All Trains</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Train Schedule</h1>
+    </header>
+
+    <main>
+        <!-- Page 1: Train List -->
+        <section id="train-list">
+            <h2>All Trains</h2>
+            <div class="train-card">
+                <h3>Train Name: Chennai Express</h3>
+                <p>Train Number: 2344</p>
+                <p>Departure Time: 21:35</p>
+                <p>Seats Available (Sleeper): 3</p>
+                <p>Seats Available (AC): 1</p>
+                <p>Price (Sleeper): $2</p>
+                <p>Price (AC): $5</p>
+                <p>Delay (Minutes): 15</p>
+                <!-- Add more train cards... -->
+            </div>
+            <!-- More train cards here... -->
+        </section>
+
+        <!-- Page 2: Single Train Details -->
+        <section id="single-train">
+            <h2>Train Details</h2>
+            <div class="train-details">
+                <h3>Train Name: Chennai Express</h3>
+                <p>Train Number: 2344</p>
+                <p>Departure Time: 21:35</p>
+                <p>Seats Available (Sleeper): 3</p>
+                <p>Seats Available (AC): 1</p>
+                <p>Price (Sleeper): $2</p>
+                <p>Price (AC): $5</p>
+                <p>Delay (Minutes): 15</p>
+                <!-- Add more detailed information... -->
+            </div>
+        </section>
+
+                <!-- Inside the "All Trains" section -->
+<div class="train-card">
+    <h3>Train Name: DELHI EXPRESS/h3>
+    <!-- More train details... -->
+    <p>Price (Sleeper): $2</p>
+    <p>Seats Available (Sleeper): 3</p>
+    <p>Seats Available (AC): 1</p>
+    <p>Delay (Minutes): 15</p>
+    <button class="view-details-btn" onclick="showDetails('Chennai Express')">View Details</button>
+</div>
+<!-- More train cards here... -->
+
+<!-- Inside the "All Trains" section -->
+<div class="train-card">
+    <h3>Train Name: Chennai Express</h3>
+    <!-- More train details... -->
+    <p>Price (Sleeper): $2</p>
+    <p>Seats Available (Sleeper): 3</p>
+    <p>Seats Available (AC): 1</p>
+    <p>Delay (Minutes): 15</p>
+    <button class="view-details-btn" onclick="showDetails('Chennai Express')">View Details</button>
+    <button class="book-now-btn" onclick="bookTrain('Chennai Express')">Book Now</button>
+    <select class="class-select">
+        <option value="sleeper">Sleeper</option>
+        <option value="ac">AC</option>
+    </select>
+</div>
+<!-- More train cards here... -->
+
+
+        <!-- Page 3: About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing you with the best train travel experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non hendrerit odio. Phasellus eleifend nec metus vel venenatis.</p>
+        </section>
+
+
+
+
+
+        <!-- Page 4: Contact Us -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us at <a href="mailto:contact@trainscheduleapp.com">contact@trainscheduleapp.com</a>. You can also give us a call at +1234567890.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Train Schedule App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
